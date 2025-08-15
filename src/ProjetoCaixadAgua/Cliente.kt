@@ -1,4 +1,4 @@
-import java.math.BigDecimal
+package ProjetoCaixadAgua
 
 class Cliente (
     nome: String,
@@ -8,7 +8,7 @@ class Cliente (
     sexo: Char,
     val email: String,
     val endereco: String,
-    ) : Pessoa (
+    ) : Pessoa(
     nome = nome,
     idade = idade,
     CPF = CPF,

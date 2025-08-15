@@ -1,3 +1,5 @@
+package ProjetoCaixadAgua
+
 import java.math.BigDecimal
 
 class Funcionario (
@@ -11,7 +13,7 @@ class Funcionario (
     var experiencia: Int, //anos
     sexo: Char,
 
-): Pessoa (
+): Pessoa(
 nome = nome,
 idade = idade,
 CPF = CPF,
