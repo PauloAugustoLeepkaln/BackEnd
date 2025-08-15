@@ -1,0 +1,9 @@
+import java.math.BigDecimal
+
+class Servico(
+    var funcionario: Funcionario,
+    var tipo: String,
+    var preco: BigDecimal,
+    var expediente: Int,
+    ) {
+}
