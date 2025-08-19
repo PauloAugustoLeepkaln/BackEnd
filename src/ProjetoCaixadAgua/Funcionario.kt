@@ -1,5 +1,8 @@
 package ProjetoCaixadAgua
 
+import ProjetoCaixadAgua.Enum.Habilidade
+import ProjetoCaixadAgua.Enum.Setor
+import ProjetoCaixadAgua.Enum.Sexo
 import java.math.BigDecimal
 
 class Funcionario (
@@ -11,14 +14,23 @@ class Funcionario (
     CPF: String,
     telefone: String,
     var experiencia: Int, //anos
-    sexo: Char,
+    val setor: Setor,
+    val habilidade: Habilidade,
+    val sexo: Sexo
 
 ): Pessoa(
 nome = nome,
 idade = idade,
 CPF = CPF,
 telefone = telefone,
-sexo = sexo
 ){
+    //Comportamentos do profissional
+    fun instalarCaixaDAgua(clt : Funcionario){
+        if(clt. setor.equals(Setor.MONTAGEM)) {
+            println("Profissional habilitado")
+        } else {
+            println ("Profissional desqualificado")
 
+        }
+    }
 }

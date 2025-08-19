@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fe22f20-a274-439d-9383-e1d39904a3cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oxi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaixaDAgua.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cliente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Servico.kt" afterDir="false" />
+    <list default="true" id="8fe22f20-a274-439d-9383-e1d39904a3cd" name="Changes" comment="socorro1">
+      <change afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Enum/Habilidade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Enum/Material.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Enum/Setor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Enum/Sexo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoCaixadAgua/CaixaDAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/CaixaDAgua.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Cliente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Servico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjetoCaixadAgua/Servico.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +27,25 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PauloAugustoLeepkaln&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PauloAugustoLeepkaln/BackEnd&quot;,
+    &quot;accountId&quot;: &quot;bc503396-0f5f-4ab5-bae9-5222fe2bb1a2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -46,14 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.MainKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Desktop\pasta top\oxi\src\ProjetoCaixadAgua" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="ProjetoCaixadAgua.Enum" />
+      <recent name="ProjetoCaixadAgua" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +82,27 @@
       <option name="presentableId" value="Default" />
       <updated>1754521151217</updated>
     </task>
+    <task id="LOCAL-00001" summary="socorro1">
+      <option name="closed" value="true" />
+      <created>1755216101169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755216101169</updated>
+    </task>
+    <task id="LOCAL-00002" summary="socorro1">
+      <option name="closed" value="true" />
+      <created>1755216183299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755216183299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="socorro1" />
+    <option name="LAST_COMMIT_MESSAGE" value="socorro1" />
   </component>
 </project>

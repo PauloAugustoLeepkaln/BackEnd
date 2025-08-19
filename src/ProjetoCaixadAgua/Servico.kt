@@ -1,5 +1,6 @@
 package ProjetoCaixadAgua
 
+import ProjetoCaixadAgua.Enum.Material
 import java.math.BigDecimal
 
 class Servico(
@@ -7,5 +8,6 @@ class Servico(
     var tipo: String,
     var preco: BigDecimal,
     var expediente: Int,
+    val material: Material
     ) {
 }

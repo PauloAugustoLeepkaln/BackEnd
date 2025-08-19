@@ -13,7 +13,6 @@ class Cliente (
     idade = idade,
     CPF = CPF,
     telefone = telefone,
-    sexo = sexo
     )
 
 {

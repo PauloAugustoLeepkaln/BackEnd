@@ -1,22 +1,30 @@
 package ProjetoCaixadAgua
 
+import ProjetoCaixadAgua.Enum.Habilidade
+import ProjetoCaixadAgua.Enum.Material
+import ProjetoCaixadAgua.Enum.Setor
+import ProjetoCaixadAgua.Enum.Sexo
 import java.math.BigDecimal
 
 fun main() {
     val instalacao : Servico = Servico(
+
         Funcionario(
-            "nome",
-            10,
-            1.80,
-            20.0,
-            BigDecimal("2000.00"),
-            "00000000",
-            "000000",
-            10,
-            'm'
+            nome ="nome",
+            idade = 10,
+            altura = 1.80,
+            peso = 20.0,
+            salario = BigDecimal("2000.00"),
+            CPF = "00000000",
+            telefone = "000000",
+            experiencia = 10,
+            setor = Setor.MONTAGEM,
+            habilidade = Habilidade.JUNIOR,
+            sexo = Sexo.MASCULINO,
         ),
-        "reforma",
-        BigDecimal("10000"),
-        10
+        tipo = "reforma",
+        preco = BigDecimal("10000"),
+        expediente = 10,
+        material = Material.CONCRETO
     )
 }

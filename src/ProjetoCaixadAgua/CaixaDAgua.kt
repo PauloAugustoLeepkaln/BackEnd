@@ -10,6 +10,6 @@ class CaixaDAgua (
     val altura : Double,
     val largura: Double,
     val profundidade : Double,
-    //val dimencao : Array<Double>
+
 )
 

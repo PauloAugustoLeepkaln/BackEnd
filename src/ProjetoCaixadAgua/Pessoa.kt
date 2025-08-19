@@ -5,5 +5,4 @@ open class Pessoa (
     val idade: Int,
     val CPF: String,
     val telefone: String,
-    val sexo: Char,
 )
