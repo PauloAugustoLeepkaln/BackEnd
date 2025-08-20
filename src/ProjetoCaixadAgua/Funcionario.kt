@@ -3,6 +3,7 @@ package ProjetoCaixadAgua
 import ProjetoCaixadAgua.Enum.Habilidade
 import ProjetoCaixadAgua.Enum.Setor
 import ProjetoCaixadAgua.Enum.Sexo
+import ProjetoCaixadAgua.Enum.TipoConta
 import java.math.BigDecimal
 
 class Funcionario (
@@ -17,13 +18,14 @@ class Funcionario (
     val setor: Setor,
     val habilidade: Habilidade,
     val sexo: Sexo
-
 ): Pessoa(
-nome = nome,
-idade = idade,
-CPF = CPF,
-telefone = telefone,
-){
+    nome = nome,
+    idade = idade,
+    CPF = CPF,
+    telefone = telefone,
+)
+
+{
     //Comportamentos do profissional
     fun instalarCaixaDAgua(clt : Funcionario){
         if(clt. setor.equals(Setor.MONTAGEM)) {
@@ -33,4 +35,9 @@ telefone = telefone,
 
         }
     }
+    override fun receberConta(conta : Conta, aPagar : BigDecimal){
+        conta.saldo = conta.saldo.subtract(aPagar)
+    }
 }
+
+

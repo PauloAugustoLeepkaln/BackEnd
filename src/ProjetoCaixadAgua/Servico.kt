@@ -8,6 +8,7 @@ class Servico(
     var tipo: String,
     var preco: BigDecimal,
     var expediente: Int,
-    val material: Material
+    val material: Material,
+    var concluido: Boolean
     ) {
 }

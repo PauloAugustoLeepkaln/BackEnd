@@ -25,6 +25,7 @@ fun main() {
         tipo = "reforma",
         preco = BigDecimal("10000"),
         expediente = 10,
-        material = Material.CONCRETO
+        material = Material.CONCRETO,
+        concluido = true
     )
 }
